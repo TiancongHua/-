@@ -8,9 +8,15 @@
 
 ### 技巧3：引用自（https://github.com/cy69855522/Shortest-LeetCode-Python-Solutions）
 set 中的 in 操作时间复杂度为 O(1)
+
 dict.get 可以设置预设值，避免取到不存在的 key 时报错
+
 遇到关于数组的问题，不妨先想想是否应该先排序
+
 最短路径搜索问题通常使用 bfs
+
 迭代器是缩小 space efficiency 的利器
+
 让数字在一定范围内循环递增常常使用 % 操作
+
 a << b 相当于 a * 2的b次方，a >> b 相当于 a // 2的b次方  
