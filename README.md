@@ -33,11 +33,12 @@ a << b 相当于 a * 2的b次方，a >> b 相当于 a // 2的b次方
 
 ### 求最大公约数,辗转相除法
 
-    
- "def fun1(a, b):
+//    
+def fun1(a, b):
     x = a % b
     while (x != 0):
         a = b
         b = x
         x = a % b
-    return b"
+    return b
+//
